@@ -9,17 +9,14 @@ class Solution:
             return char_count
         dic1 = count_char(word1)
         dic2 = count_char(word2)
-        print(dic1, dic2)
         chars1 = list(dic1.keys())
         chars2 = list(dic2.keys())
         counts1 = list(dic1.values())
         counts2 = list(dic2.values())
-        print(chars1, chars2, counts1, counts2)
         chars1.sort()
         chars2.sort()
         counts1.sort()
         counts2.sort()
-        print(chars1, chars2, counts1, counts2)
         if len(chars1) != len(chars2):
             return False
         for i in range(len(chars1)):
