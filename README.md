@@ -1,1 +1,1 @@
-All the solutions was came up by me
+Every solution was came up by me
